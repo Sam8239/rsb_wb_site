@@ -1,0 +1,68 @@
+.submit1{margin-left:0px;}
+span.error{color:#A73939; margin-top:2px; text-align:left; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+span.admin_error{color:#FF0000; font-size:12px;}
+.addUser  span.error{color:#FF0000; margin-top:2px; text-align:left;}
+.btn {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.09) inset;
+    font-weight: 500;
+}
+.bg-maroon {
+	color:#FFF;
+    background-color: #85144b !important;
+}
+.bg-maroon:hover{color:#FFF;}
+.note{font-size:12px; font-weight:400;}
+
+
+.btn-manage {
+   border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 1px 5px;
+}
+
+
+.btn-customlink {
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 0.5;
+    padding: 5px 10px;
+}
+.label-custom{padding:3px 10px;}
+.add_question{padding-top:10px; padding-bottom:10px;} 
+.add_question a{color:#3c8dbc;}
+.fieldset_head{ padding:2px 0px; font-size:16px; color:#333;  width:100%;}
+.img_pro_admin{width:100px; height:86px; border-radius:60px;}
+
+.profile_ph{list-style:none; display:inline; margin-left:-40px;}
+.profile_ph li .fa{font-size:13px;}
+.profile_ph li{display:inline; font-size:13px; padding:0px 5px}
+
+
+.alert-success{
+    color: #3c763d !important;
+    background-color: #dff0d8 !important;
+    border-color: #d6e9c6 !important;
+    margin-bottom: 14px !important;
+    margin-top: 10px !important;
+    border-radius: 0px !important;
+    padding: 7px 10px !important;
+}
+.alert-dismissable .close, .alert-dismissible .close{right:0px!important;}
+
+
+.alert-danger{
+    color: #FFF !important;
+    background-color: #cb4c4c !important;
+    border-color: #d6e9c6 !important;
+    margin-bottom: 14px !important;
+    margin-top: 10px !important;
+    border-radius: 0px !important;
+    padding: 7px 10px !important;
+}
+.alert-success .alert-dismissable .close, .alert-dismissible .close{right:0px!important; color:#FFF!important}
+.req{color:#FF0000; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.alert-danger .alert-dismissable .close, .alert-dismissible .close{right:0px!important; color:#FFF!important}
+
