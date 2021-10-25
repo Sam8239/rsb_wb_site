@@ -191,7 +191,7 @@ p a:hover {
 
 .logo {
   float: left;
-  margin: 41px 0 15px 20px;
+  margin: 45px 0 15px 30px;
 }
 
 .form1 {
@@ -859,8 +859,13 @@ h5 {
 .logo_right {
   float: right;
   margin-right: 25px;
-  margin-top: 50px;
+  margin-top: 45px;
 }
+
+.logo_right img {
+  width: 100px;
+}
+
 .quick_links {
   background: #f8f8f8 none repeat scroll 0 0;
 
