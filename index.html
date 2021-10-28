@@ -44,7 +44,7 @@
   <script type="text/javascript" src="js/jquery.js"></script>
   <!-------------------- banner script -------------------->
   <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
 
     function slideSwitch() {
 
@@ -76,8 +76,8 @@
 
     });
 
-  </script>
-  <script type="text/javascript">
+  </script> -->
+  <!-- <script type="text/javascript">
 
     var pausecontent = new Array()
 
@@ -87,8 +87,8 @@
 
     pausecontent[2] = ' Kolkata got 2nd Position in 32nd National Games held at Hyderabad in the year 2002 by winning 146 medals (54 Gold, 37 Silver and 55 Bronze).<br /><br /> The performance of Kolkata State in the different National Games as well as National Championships held so far speaks of the efforts put in by the Kolkata Sports Department in the development and promotion of sports in the state.. '
 
-  </script>
-  <script type="text/javascript">
+  </script> -->
+  <!-- <script type="text/javascript">
 
     function pausescroller(content, divId, divClass, delay) {
 
@@ -242,66 +242,9 @@
 
 
 
-  </script>
+  </script> -->
   <script src="js/jquery-latest.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript">
-
-    $(document).ready(function () {
-
-      slideShow();
-
-
-
-    });
-
-    function slideShow() {
-
-      $('#gallery a').css({ opacity: 0.0 });
-
-      $('#gallery a:first').css({ opacity: 1.0 });
-
-      $('#gallery .caption').css({ opacity: 0.7 });
-
-      $('#gallery .caption').css({ width: $('#gallery a').find('img').css('width') });
-
-      $('#gallery .content').html($('#gallery a:first').find('img').attr('rel'))
-
-        .animate({ opacity: 0.7 }, 400);
-
-      setInterval('gallery()', 6000);
-
-    }
-
-
-
-    function gallery() {
-
-      var current = ($('#gallery a.show') ? $('#gallery a.show') : $('#gallery a:first'));
-
-      var next = ((current.next().length) ? ((current.next().hasClass('caption')) ? $('#gallery a:first') : current.next()) : $('#gallery a:first'));
-
-      var caption = next.find('img').attr('rel');
-
-      next.css({ opacity: 0.0 })
-
-        .addClass('show')
-
-        .animate({ opacity: 1.0 }, 1000);
-
-      current.animate({ opacity: 0.0 }, 1000)
-
-        .removeClass('show');
-
-      $('#gallery .caption').animate({ opacity: 0.0 }, { queue: false, duration: 0 }).animate({ height: '1px' }, { queue: true, duration: 300 });
-
-      $('#gallery .caption').animate({ opacity: 0.7 }, 100).animate({ height: '100px' }, 500);
-
-      $('#gallery .content').html(caption);
-
-    }
-
-  </script>
 </head>
 </head>
 
@@ -313,7 +256,7 @@
 
         <p class="link"><strong><a href="index.html">Home</a>|<a href="rti.html">RTI</a>|<a
               href="sitemap.html">Sitemap</a>|<a href="faq.html">FAQ</a>|<a href="downloads.html">Downloads</a>|<a
-              href="contact_us.html">Contact Us</a>|<a href="video.html">Latest Activities</a></strong></p>
+              href="contact_us.html">Contact Us</a>|<a href="latest_activities.html">Latest Activities</a></strong></p>
         <div class="clear"></div>
 
         <div class="logo_right"> <img src="images/wb_logo.png" /></div>
@@ -415,7 +358,6 @@
       </div>
     </div>
   </div>
-
 
   <div class="clear"></div>
 
@@ -605,7 +547,6 @@
         <div class="clear"></div>
       </div>
       <p class="fl">© 2021 Exclusively With Rajya Sainik Board, West Bengal. All rights reserved.
-        <!-- Website Designed by <a href="https://www.inkwebsolutions.com/">Ink Web Solutions</a> -->
       </p>
       <div class="clear"></div>
     </div>
