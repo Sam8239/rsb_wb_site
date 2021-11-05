@@ -1,5 +1,5 @@
 .ddsmoothmenu{
-font: bold 14px Arial, Helvetica, sans-serif; float:right; background:#3D4635; width:100%}
+font: bold 14px Arial, Helvetica, sans-serif; float:right; background:#0000006e; width:100%}
 
 .ddsmoothmenu ul{
 z-index:100;
@@ -18,12 +18,12 @@ float: left; padding:0; margin:0; background:none
 /*Top level menu link items style*/
 .ddsmoothmenu ul li a{
 display: block;
- color: white;
-padding: 9px 11px;
+color: white;
+padding:9px 11px;
 font: bold 13px Arial, Helvetica, sans-serif; 
 text-transform:uppercase;
 color: #fff;
-border-left:1px dotted #7e946d;
+border:1px solid #000000;
 text-decoration: none;
 }
 
@@ -37,13 +37,13 @@ color: #fff;
 }
 
 .ddsmoothmenu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
-background:#7e946d;
+background:#000000;
 text-shadow:none;
 color: #fff;
 }
 
 .ddsmoothmenu ul li a:hover{
-background:#7e946d;
+background:#8d946d;
 color: #fff;
 text-shadow:none;
 }
@@ -85,7 +85,7 @@ padding: 5px; text-transform:none;
 margin: 0;
 color:#fff!important;
 border-top-width: 0;
-border-bottom: 1px dotted #fff; background:none
+border-bottom: 1px solid #fff; background:none
 }
 .ddsmoothmenu ul li ul li a:hover{
 background:#7e946d; color:#fff !important

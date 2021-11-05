@@ -20,7 +20,7 @@ $(function () {
   );
 });
 
-// slideshow
+//  <!-------------------- banner script -------------------->
 
 function slideSwitch() {
   var $active = $("#slideshow IMG.active");
