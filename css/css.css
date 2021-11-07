@@ -2,7 +2,7 @@
 /* CSS Document */
 /*=======================     Default Rules Reset     =======================*/
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 #pdf {
@@ -95,23 +95,25 @@ legend {
   padding: 0;
 }
 
-.zoom { 
-  display: block; 
+.zoom {
+  display: block;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   width: 70%;
   overflow: hidden;
 }
 
-.zoom img{
-  display: block; 
+.zoom img {
+  display: block;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   transition: 0.5s all ease-in-out;
 }
 
-.zoom:hover img{
-  transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.zoom:hover img {
+  transform: scale(
+    2.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 body {
@@ -469,6 +471,7 @@ h5 {
   font: bold 13px/1.5em Arial, Helvetica, sans-serif;
   color: #2e3681;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .left ul {
@@ -770,15 +773,21 @@ h5 {
   margin-left: 25px;
   list-style-type: disc;
 }
-.innerpage h3{
+.innerpage h3 {
   color: #000000;
   font-weight: 100%;
   font-size: 14px;
 }
-.innerpage ol li {
+.innerpage ol.list li {
   padding: 4px;
-  list-style-type: none;
+  margin-left: 25px;
+  list-style-type: decimal;
 }
+.innerpage ul.sublist li {
+  margin-left: 100px;
+  list-style-type: disc;
+}
+
 .eform input[type="text"] {
   background: #fff none repeat scroll 0 0;
 
@@ -900,7 +909,6 @@ h5 {
 
 .quick_links {
   background: #f8f8f8 none repeat scroll 0 0;
-
   padding: 10px;
   width: 250px;
 }
@@ -908,10 +916,15 @@ h5 {
   background: rgba(0, 0, 0, 0) url("../images/arrow.png") no-repeat scroll 8px
     6px;
   border-bottom: 1px dashed #aba9a7;
-
-  margin: 10px 0;
+  margin: 7px 0;
   padding-bottom: 6px;
   padding-left: 17px;
+}
+.quick_links ul.sublist li {
+  border-bottom: none;
+  margin: 0;
+  border-bottom: 1px dashed #aba9a7;
+  margin-left: 30px;
 }
 
 .quick_links ul li a {
