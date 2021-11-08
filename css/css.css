@@ -636,7 +636,7 @@ h5 {
     rgba(0, 0, 0, 0);
   padding-left: 17px;
   font-size: 12px;
-  border-bottom: 1px dashed #aba9a7;
+  border-bottom: 1px dashed #000000;
   margin: 10px 0;
   padding-bottom: 6px;
 }
@@ -915,7 +915,7 @@ h5 {
 .quick_links ul li {
   background: rgba(0, 0, 0, 0) url("../images/arrow.png") no-repeat scroll 8px
     6px;
-  border-bottom: 1px dashed #aba9a7;
+  border-bottom: 1px solid #000000;
   margin: 7px 0;
   padding-bottom: 6px;
   padding-left: 17px;
@@ -923,7 +923,7 @@ h5 {
 .quick_links ul.sublist li {
   border-bottom: none;
   margin: 0;
-  border-bottom: 1px dashed #aba9a7;
+  border-bottom: 1px dashed #000000;
   margin-left: 30px;
 }
 
