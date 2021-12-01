@@ -19,13 +19,14 @@ float: left; padding:0; margin:0; background:none
 .ddsmoothmenu ul li a{
 display: block;
 color: white;
-padding:9px 11px;
+padding:9px 19px;
 font: bold 13px Arial, Helvetica, sans-serif; 
 text-transform:uppercase;
 color: #fff;
 border:1px solid #000000;
 text-decoration: none;
 }
+
 
 * html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
 display: inline-block;
